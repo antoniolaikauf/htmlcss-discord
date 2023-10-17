@@ -13,7 +13,7 @@
 }
 
 button{
-    padding:7px ;
+    padding:7px 10px ;
     border-radius: 25px;
     border:  1px solid white;
  }
@@ -21,6 +21,7 @@ button{
  .blu{
     background-color: #8e8edb;
     color: white;
+    border: 1px solid #8e8edb;
  }
 
 ul li{
@@ -87,25 +88,31 @@ header{
 /* inizio main */
 
 main section{
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 main section:nth-child(even) {
     background-color: #d3d3d369;
 }
 
+/* inizio tre items dentro a main */
+
+.items{
+    justify-content: space-between;
+}
+
 /* parte larga contenuto */
 .items .largo{
-    width: 70%;
     padding: 20px 0;
 }
+
 /* immagine dentro largo */
 .largo img{
-    height: 250px;
+    height: 300px;
 }
 /* parte stretta contenuto */
 .items .stretto{
-    width: 30% ;
+    width: 30%;
     padding: 30px;
 }
 
@@ -115,8 +122,8 @@ main section:nth-child(even) {
 
 /* parte diversa */
 
-.descrizione{
-    padding: 0px 40px;
+.diverso{
+    padding-bottom: 100px;
 }
 
 .diverso>div{
@@ -124,6 +131,10 @@ main section:nth-child(even) {
     margin: auto;
     text-align: center;
     padding: 0px 50px;
+}
+
+.descrizione{
+    padding: 0px 40px;
 }
 
 .descrizione p{
