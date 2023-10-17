@@ -12,14 +12,18 @@
     margin: auto;
 }
 
+button{
+    padding:7px ;
+    border-radius: 25px;
+    border: none;
+ }
+
+/* background header */
 header{
     background-image: url(../img/jumbo.png);
     background-size: contain;
-}
-/* background nav */
-nav{
-    padding: 10px 0;
-    
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 /* caratteristiche div dentro nav*/
 .sotto-contenitore{
@@ -53,13 +57,6 @@ nav{
     text-align: end;
 }
 
-.destra button{
-   width: 60px;
-   height: 30px;
-   border-radius: 25px;
-   border: none;
-}
-
 /* inizio sotto-contenitore2 */
 
 #sotto-contenitore2{
@@ -67,12 +64,20 @@ nav{
 }
 
 #sotto-contenitore2>div{
-    width: 60%;
+    width: 50%;
     margin: auto;
-    /* debug */
-    height: 200px;
-    background-color: #e91ee2;
-    border: 2px dotted black;
+    text-align: center;
+    color: white;
+}
+
+#sotto-contenitore2 p{
+   margin-top: 30px;
+   margin-bottom: 10px;
+}
+
+.bottone-nero{
+    background-color: black;
+    color: white;
 }
 
 /* inizio main */
