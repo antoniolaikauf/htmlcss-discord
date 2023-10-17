@@ -33,7 +33,7 @@ ul li{
 header{
     background-image: url(../img/jumbo.png);
     background-size:cover;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 40px;
     background-repeat: no-repeat;
 }
@@ -42,12 +42,6 @@ header{
 .sotto-contenitore{
     align-items: center;
     justify-content: space-between;
-}
-
-/* stili div interno al sotto-contenitore */
-.sotto-contenitore>div{
-   padding: 10px 0;
-   color: white;
 }
 
 .centro>a{
