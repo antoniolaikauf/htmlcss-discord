@@ -1,0 +1,220 @@
+/* stile genrale */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.display-flex{
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+
+button{
+    padding:7px 10px ;
+    border-radius: 25px;
+    border:  1px solid white;
+ }
+
+ .blu{
+    background-color: #8e8edb;
+    color: white;
+    border: 1px solid #8e8edb;
+ }
+
+ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+/* background header */
+header{
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-repeat: no-repeat;
+}
+
+/* caratteristiche div dentro nav*/
+.sotto-contenitore{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.centro>a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+/* inizio sotto-contenitore2 */
+
+#sotto-contenitore2{
+    margin: 70px 0;   
+}
+
+#sotto-contenitore2 h1{
+    font-size: 40px;
+}
+
+#sotto-contenitore2>div{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+#sotto-contenitore2 p{
+   margin-top: 30px;
+   margin-bottom: 10px;
+}
+
+.bottone-nero{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+/* finito header */
+
+/* inizio main */
+
+main section{
+    padding: 40px 0;
+}
+
+main .grigio {
+    background-color: #d3d3d369;
+}
+
+/* inizio tre items dentro a main */
+
+.items{
+    justify-content: space-between;
+}
+
+/* parte larga contenuto */
+.items .largo{
+    padding: 20px 0;
+}
+
+/* immagine dentro largo */
+.largo img{
+    height: 300px;
+}
+/* parte stretta contenuto */
+.items .stretto{
+    width: 30%;
+    padding: 30px;
+}
+
+.stretto>p{
+    margin-top: 20px;
+}
+
+/* parte diversa */
+
+.diverso{
+    padding-bottom: 100px;
+}
+
+.diverso>div{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.descrizione{
+    padding: 0px 80px;
+}
+
+.descrizione p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.immagine-grande img{
+    width: 100%;
+}
+
+/* inizio caratteristiche per mac */
+
+#per-mac{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    line-height: 50px;
+    width: 60%;
+    margin:10px auto;
+}
+
+
+/* inizio footer caratteristiche */
+
+footer>section{
+    background-color: black;
+}
+
+/* sezione  footer */
+
+.contenitore-footer{
+    padding: 30px 0 ;
+    color: white;
+}
+
+/* caratteristiche contenitore-footer div */
+/* caratteristiche primo div */
+.contenitore-footer div:nth-child(1){
+    width: 30%;
+}
+
+.contenitore-footer>div{
+    width:calc( 70% / 4 );
+}
+
+#cittadinanza{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: 10px 0;
+}
+
+#cittadinanza img{
+    height: 20px;
+    margin-right: 5px;
+}
+
+div i{
+    margin: 0  5px;
+}
+
+ul li:first-child, .contenitore-footer h4{
+    color: #8e8edb;
+}
+
+/* inizio contenitore-footer2 footer */
+
+.contenitore-footer2{
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    color: white;
+    padding: 20px 0;
+}
+
+
+/* bonus  */
+
+.centro>a:hover, ul li:hover{
+    text-decoration: underline;
+}
+
+.onda img{
+    width: 100%;
+    height: 70px;
+}
+
+.rovescia img{
+    transform: rotate(180deg);
+}
