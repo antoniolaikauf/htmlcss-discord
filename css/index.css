@@ -1,0 +1,157 @@
+/* stile genrale */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Whitney, Helvetica Neue’, Helvetica, Arial, sans-serif;
+}
+
+.display-flex{
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+/* background nav */
+nav{
+    padding: 10px 0;
+    /* debug */
+    background-color: #03a9f478;
+}
+/* caratteristiche div dentro nav*/
+.sotto-contenitore{
+    align-items: center;
+    /* debug */
+    height: 40px;
+}
+/* stili div interno al sotto-contenitore */
+.sotto-contenitore>div{
+   padding: 10px 0;
+    /* debug */
+   border: 2px black dotted;
+   background-color: orange;
+}
+
+.sotto-contenitore>.centro{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.centro>div{
+    margin: 0 10px;
+}
+
+.sotto-contenitore>.destra, .sotto-contenitore>.sinistra{
+    width: 25%;
+}
+
+.sotto-contenitore>.destra{
+    text-align: end;
+}
+
+/* inizio sotto-contenitore2 */
+
+#sotto-contenitore2{
+    padding: 20px 0;
+    /* debug */
+    background-color: #292485;
+}
+
+#sotto-contenitore2>div{
+    width: 60%;
+    margin: auto;
+    /* debug */
+    height: 200px;
+    background-color: #e91ee2;
+    border: 2px dotted black;
+}
+
+/* inizio main */
+
+main section{
+    padding: 20px 0;
+}
+
+main section:nth-child(even) {
+    background-color: lightgrey;
+}
+/* caratteristiche contenitori che contengono il contnuto */
+.items{ 
+    /* debug */
+    height: 250px;
+    background-color: aquamarine;
+}
+/* parte larga contenuto */
+.items .largo{
+    width: 60%;
+    /* debug */
+    background-color: #0000ff7a;
+    border: 2px dotted black;
+}
+/* parte stretta contenuto */
+.items .stretto{
+    width:40% ;
+   /* debug */
+   background-color: pink;
+   border: 2px dotted black;
+}
+
+.diverso>div{
+    width: 70%;
+    margin: auto;
+    /* debug */
+    height: 400px;
+    background-color:green;
+    border: 2px dotted black;
+}
+
+/* inizio footer caratteristiche */
+
+footer>section{
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+footer section:nth-child(2){
+    padding-top: 20px;
+}
+
+/* sezione prima footer */
+
+.contenitore-footer{
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 20px ;
+}
+
+/* caratteristiche contenitore-footer div */
+
+.contenitore-footer div:nth-child(1){
+    width: 30%;
+    /* debug */
+    background-color: #ff7167;
+}
+
+.contenitore-footer>div{
+    width:calc( 70% / 4 );
+    /* debug */
+    border: 2px dotted white;
+    height:200px;
+    background-color: #0a8e9f;
+}
+
+/* inizio sezione seconda footer */
+
+.contenitore-footer2{
+    align-items: center;
+    justify-content: space-between;
+    /* debug */
+    height:40px ;
+    background-color: #2bd6c6;
+}
+
+.contenitore-footer2>div, .contenitore-footer2>button{
+    /* debug */
+    border: 2px dotted black;
+    background-color: pink;
+}
