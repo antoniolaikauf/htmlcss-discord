@@ -89,26 +89,28 @@ main section{
 main section:nth-child(even) {
     background-color: lightgrey;
 }
-/* caratteristiche contenitori che contengono il contnuto */
-.items{ 
-    /* debug */
-    height: 250px;
-    background-color: aquamarine;
-}
+
 /* parte larga contenuto */
 .items .largo{
-    width: 60%;
-    /* debug */
-    background-color: #0000ff7a;
-    border: 2px dotted black;
+    width: 70%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.largo img{
+    height: 250px;
 }
 /* parte stretta contenuto */
 .items .stretto{
-    width:40% ;
-   /* debug */
-   background-color: pink;
-   border: 2px dotted black;
+    width: 30% ;
+    padding: 30px;
 }
+
+.stretto>p{
+    margin-top: 20px;
+}
+
+/* parte diversa */
 
 .diverso>div{
     width: 70%;
