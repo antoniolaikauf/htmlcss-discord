@@ -15,8 +15,17 @@
 button{
     padding:7px ;
     border-radius: 25px;
-    border: none;
  }
+
+ .blu{
+    background-color: blue;
+    color: white;
+ }
+
+ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
 
 /* background header */
 header{
@@ -124,18 +133,32 @@ main section:nth-child(even) {
     margin-bottom: 30px;
 }
 
-.diverso img{
+ .immagine-grande img{
     width: 100%;
 }
 
 .descrizione{
     padding: 0px 60px;
 }
+
+/* inizio fondo */
+
+#fondo{
+    width: 400px;
+    margin: auto;
+}
+
+#per-mac{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    line-height: 50px;
+}
+
+
 /* inizio footer caratteristiche */
 
 footer>section{
     background-color: black;
-    border-bottom: 1px solid white;
 }
 
 footer section:nth-child(2){
@@ -147,23 +170,41 @@ footer section:nth-child(2){
 .contenitore-footer{
     background-color: black;
     padding-top: 5px;
-    padding-bottom: 20px ;
+    padding: 30px 0 ;
+    color: white;
 }
 
 /* caratteristiche contenitore-footer div */
 
 .contenitore-footer div:nth-child(1){
     width: 30%;
-    /* debug */
-    background-color: #ff7167;
+}
+
+#cittadinanza{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: 10px 0;
+}
+
+#cittadinanza img{
+    height: 20px;
+}
+
+#sezione{
+    margin-left: 5px;
+}
+
+div i{
+    margin: 0  5px;
 }
 
 .contenitore-footer>div{
     width:calc( 70% / 4 );
-    /* debug */
-    border: 2px dotted white;
-    height:200px;
-    background-color: red;
+}
+
+ul li:first-child{
+    color: blue;
 }
 
 /* inizio sezione seconda footer */
@@ -171,13 +212,7 @@ footer section:nth-child(2){
 .contenitore-footer2{
     align-items: center;
     justify-content: space-between;
-    /* debug */
-    height:40px ;
-    background-color: #2bd6c6;
-}
-
-.contenitore-footer2>div, .contenitore-footer2>button{
-    /* debug */
-    border: 2px dotted black;
-    background-color: pink;
+    border-top: 1px solid white;
+    color: white;
+    padding: 20px 0;
 }
