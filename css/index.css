@@ -115,12 +115,22 @@ main section:nth-child(even) {
 .diverso>div{
     width: 70%;
     margin: auto;
-    /* debug */
-    height: 400px;
-    background-color:green;
-    border: 2px dotted black;
+    text-align: center;
+    padding: 0px 50px;
 }
 
+.diverso p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.diverso img{
+    width: 100%;
+}
+
+.descrizione{
+    padding: 0px 60px;
+}
 /* inizio footer caratteristiche */
 
 footer>section{
